@@ -3,7 +3,6 @@ from pytube import YouTube
 from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_audio
 
 video_url = input("enter url of the video: ")
-# video_url = 'https://www.youtube.com/watch?v=u-pP_dCenJA'
 yt = YouTube(video_url)
 audio_stream = yt.streams.filter(only_audio=True).first()
 
