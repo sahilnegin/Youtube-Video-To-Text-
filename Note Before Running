@@ -1,0 +1,4 @@
+Install these libraries before running.
+pip install openai-whisper
+pip install pytube moviepy
+If you don't have a GPU, run it in Google Colab.If you don't have a GPU, run it in Google Colab.
